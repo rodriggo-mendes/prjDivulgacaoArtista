@@ -1,0 +1,1425 @@
+﻿body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+nav
+{
+    width: 100%;
+    height: 70px;
+    border-bottom: solid 1px #e8e8e8;
+    position: fixed;
+    background: white;
+    z-index: 3;
+}
+
+nav img
+{
+    width: 310px;
+    float: left;
+    padding: 14px;
+}
+
+nav li
+{
+    float: right;
+    list-style: none;
+    color: #24231f;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    padding: 20px;
+    font-size: 18px;
+}
+
+main 
+{
+    padding-top: 70px;
+    width: 100%;
+}
+
+nav a li
+{
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+nav a:hover li
+{
+    color: #ad949e;
+    transition: all 0.25s ease;
+}
+
+.bannerh
+{
+    width: 100%;
+}
+
+.bannerh1
+{
+    width: 100%;
+}
+
+.bannerh2
+{
+    width: 100%;
+}
+
+.bannerv1
+{
+    display:none;
+    width: 100%;
+}
+
+.girlfriend h1
+{
+    float: left;
+    margin:0;
+}
+
+.girlfriend
+{
+    padding: 0 20px;
+}
+
+.next h1 {
+    float: left;
+    margin: 0;
+}
+
+.breathin {
+
+    background-image: url(../img/breathin.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -5px;
+}
+
+.breathin h1
+{
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 4vw;
+    padding-right: 15px;
+}
+
+.breathin p
+{
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2vw;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.thanku {
+
+    background-image: url(../img/thanku.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thanku h1
+{
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 4vw;
+    padding-right: 15px;
+}
+
+.thanku p
+{
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2vw;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.breakup {
+
+    background-image: url(../img/breakup.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -5px;
+}
+
+.breakup h1
+{
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 4vw;
+    padding-right: 15px;
+}
+
+.breakup p
+{
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2vw;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.ytbtn
+{
+    background-image: url(../img/yt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 4.2vw;
+    height: 4.2vw;
+    transition: all 0.25s ease;
+}
+
+.ytbtn:hover
+{
+    background-image: url(../img/ythover.png);
+    transition: all 0.25s ease;
+}
+
+.cdcontain
+{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -65px;
+    padding: 40px;
+    padding-top: 55px;
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+
+.cd
+{
+    width: 50%;
+    float: left;
+}
+
+.cd a 
+{
+    text-decoration: none;
+}
+
+.cd img
+{
+    width: 310px;
+    display: block;
+    margin: 0 auto;
+}
+
+.cd h1
+{
+    color: #0c0c0c;
+    font-family: 'Cardo', serif;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.cd p 
+{
+    color: #878787;
+    font-family: 'Cardo', serif;
+    font-size: 23px;
+    text-align: center;
+    margin-top: -27px;
+}
+
+.cd2
+{
+    width: 100%;
+    display: none;
+}
+
+.cd2 a 
+{
+    text-decoration: none;
+}
+
+.cd2 img
+{
+    width: 310px;
+    display: block;
+    margin: 0 auto;
+}
+
+.cd2 h1
+{
+    color: #0c0c0c;
+    font-family: 'Cardo', serif;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.cd2 p 
+{
+    color: #878787;
+    font-family: 'Cardo', serif;
+    font-size: 23px;
+    text-align: center;
+    margin-top: -27px;
+}
+
+.clear
+{
+    clear:both;
+}
+
+.bgcolor
+{
+    width: 100%;
+    background: #1f1f1f;
+    padding-top: 1px;
+    padding-bottom: 60px;
+}
+
+.bgcolor2
+{
+    background: #1f1f1f;
+}
+
+.bgcolor3
+{
+    background: #191919;
+}
+
+.albumcontain
+{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.albumcontain img:not(.backarrow)
+{
+    width: 200px;
+    float: left;
+    padding-right: 50px;
+    border-right: solid 1px #212121;
+}
+
+.backarrow
+{
+    width: 40px;
+    position: absolute;
+    left: 25px;
+
+}
+
+.albuminfo
+{
+    float: left;
+    padding-left: 50px;
+}
+
+.albuminfo h1
+{
+    color: ghostwhite;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+}
+
+.albuminfo h2
+{
+    color: #e0e0e0;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    margin-top: -15px;
+}
+
+.albuminfo h3
+{
+    color: #e0e0e0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+.albuminfo h4
+{
+    color: #e0e0e0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+.albuminfo h4 a
+{
+    text-decoration: none;
+    color: #e0e0e0;
+    transition: all 0.25s ease;
+}
+
+.albuminfo h4 a:hover
+{
+    color: #ad949e;
+    transition: all 0.25s ease;
+}
+
+.grayify
+{
+    color: #a3a3a3;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    float: left;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.albumbg
+{
+    background-image: url(../img/cover1.jpg);
+}
+
+.albumbg2
+{
+    background-image: url(../img/abg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.albumbg3
+{
+    background-image: url(../img/cover3.jpg);
+}
+
+.albumbg4
+{
+    background-image: url(../img/cover4.jpg);
+}
+
+.albumbg5
+{
+    background-image: url(../img/cover5.jpg);
+}
+
+.songcontainout
+{
+    width: 1000px;
+    margin: 0 auto;
+    background: white;
+}
+
+.songcontain
+{
+    height: 27px;
+    border-bottom: solid 1px #212121;
+    padding: 15px;
+
+}
+
+.songcontain p:not(.grayify) 
+{
+    color: #0c0c0c;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    float: left;
+    margin: 0;
+}
+
+.songcontain h5
+{
+    color: #0c0c0c;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    float: right;
+    margin: 0;
+}
+
+.songcontain img
+{
+    float: right;
+    height: 15px;
+    padding-top: 4px;
+    margin-right: 9px;
+}
+
+.listencontain
+{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 45px;
+    
+}
+
+.apple
+{
+    background-image: url(../img/apple.png);
+    width: 55px;
+    height: 55px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 4px;
+    transition: all 0.25s ease;
+}
+
+.apple:hover 
+{
+    background-image: url(../img/appleh.png);
+    transition: all 0.25s ease;
+}
+
+.spotify
+{
+    background-image: url(../img/spotify.png);
+    width: 55px;
+    height: 55px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 4px;
+    transition: all 0.25s ease;
+}
+
+.spotify:hover 
+{
+    background-image: url(../img/spotifyh.png);
+    transition: all 0.25s ease;
+}
+
+.br 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.listencontain p 
+{
+    color: #fcfbf4;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.tourcontain
+{
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.tour
+{
+    width:900px;
+    height: 73px;
+    border-bottom: solid 1px #757575;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.tour p
+{
+    float: left;
+    color: #515151;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    margin-top: 30px;
+    padding-right: 17px;
+}
+
+.tour h2
+{
+    float: left;
+    color: #383838;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.tourbtn {
+    float: right;
+    border: solid 1px #757575;
+    width: 100px;
+    height: 40px;
+    margin-top: 13px;
+    transition: all 0.25s ease;
+    background: #f9f9f9;
+    border-radius: 6px;
+}
+
+.tourbtn p
+{
+    color: #303030;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 27px;
+    margin-top: 11px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.tourbtn:hover
+{
+    background: #e8dae4;
+    transition: all 0.25s ease;
+}
+
+.sobrecontain
+{
+    margin-top: -5px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sobrecontain img
+{
+    float left;
+    margin-left: 40vw;
+}
+
+.ari
+{
+    background-image: url(../img/ari.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 79vh;
+
+}
+
+.containabout
+{
+    float: right;
+    width: 60%;
+    height: 31.55vw;
+    margin-right: 5px;
+}
+
+.containabout h1
+{
+    color: #0c0c0c;
+    font-family: 'Playfair Display', serif;
+    font-size: 3vw;
+}
+
+.containabout p
+{
+    color: #0c0c0c;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5vw;
+}
+
+.lojamsg 
+{
+    width: 100%;
+    padding: 1px 0;
+    height: auto;
+    background: #c1b8c0;
+}
+
+.lojamsg p
+{
+    padding-left: 15px;
+    font-family: 'Cardo', serif;
+    font-size: 18px;
+}
+
+.lojacontain 
+{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lojaitem
+{
+    width: 300px;
+    float: left;
+    padding: 10px 10px;
+}
+
+.lojaitem img
+{
+    width: 210px;
+    display: block;
+    margin: 0 auto;
+}
+
+.lojaitem p
+{
+    font-family: 'Cardo', serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top:-10px;
+}
+
+.lojaitem h5
+{
+    font-family: 'Cardo', serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top:-10px;
+    font-weight: 400;
+    color: #bababa;
+}
+
+footer 
+{
+    width: 100%;
+    height: 10vw;
+    background: #121212;
+}
+
+.socialrow
+{
+    padding-top: 2.2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.youtube
+{
+    background-image: url(../img/ytb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 2.5vw;
+    height:2.5vw;
+    margin-right: 1vw;
+    transition: all 0.25s ease;
+}
+
+.youtube:hover
+{
+    background-image: url(../img/ytbh.png);
+    transition: all 0.25s ease;
+}
+
+.twitter
+{
+    background-image: url(../img/twt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 2.5vw;
+    height:2.5vw;
+    margin-right: 1vw;
+    transition: all 0.25s ease;
+}
+
+.twitter:hover
+{
+    background-image: url(../img/twth.png);
+    transition: all 0.25s ease;
+}
+
+.instagram
+{
+    background-image: url(../img/ins.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 2.5vw;
+    height:2.5vw;
+    margin-right: 1vw;
+    transition: all 0.25s ease;
+}
+
+.instagram:hover
+{
+    background-image: url(../img/insh.png);
+    transition: all 0.25s ease;
+}
+
+.spotify2
+{
+    background-image: url(../img/spt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 2.5vw;
+    height:2.5vw;
+    margin-right: 1vw;
+    transition: all 0.25s ease;
+}
+
+.spotify2:hover
+{
+    background-image: url(../img/spth.png);
+    transition: all 0.25s ease;
+}
+
+footer p
+{
+    font-family: 'Quicksand', serif;
+    font-size: 1.1vw;
+    text-align: center;
+    color: ghostwhite;
+    padding-top: 0.6vw;
+    font-weight: 300;
+    width: 95%;
+}
+
+.navres
+{
+    width: 100%;
+    height: 60px;
+    display: none;
+    background: white;
+    position: fixed;
+    z-index: 3;
+    border-bottom: solid 1px #cacaca;
+}
+
+.navres img
+{
+    padding: 19px;
+    padding-left:0;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.burguer
+{
+    background-image: url(../img/burguer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.active 
+{
+    background-image: url(../img/close.png);
+}
+
+#linkactive
+{
+    color: #ad949e !important;
+}
+
+.menures
+{
+    width: 70%;
+    height: 100vh;
+    position: fixed;
+    top:60px;
+    left:0;
+    display:none;
+    background: white;
+    z-index: 5;
+    border-right: solid 1px #cacaca;
+    border-top: solid 1px #cacaca;
+}
+
+.menures li
+{
+    list-style: none;
+    color: #24231f;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    padding: 20px;
+    font-size: 18px;
+    border-bottom: solid 1px #cacaca;
+}
+
+.menures a 
+{
+    text-decoration: none !important;
+    color: #24231f;
+    transition: all 0.25s ease;
+}
+
+.menures a:hover li
+{
+    color: #ad949e;
+    transition: all 0.25s ease;
+}
+
+.displaytoggle
+{
+    display: block;
+}
+
+.bannerv
+{
+    width: 100%;
+    display: none;
+}
+
+.comprar 
+{
+    width: 90px;
+    height: 40px;
+    border: solid 1px #757575;
+    transition: all 0.25s ease;
+    background: #f9f9f9;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.comprar p
+{
+    color: #303030;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 11px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.comprar:hover
+{
+    background: #e8dae4;
+    transition: all 0.25s ease;
+}
+
+
+@media only screen and (max-width: 1023px)
+{
+    nav
+    {
+        display: none;
+    }
+
+    main
+    {
+        padding-top: 60px;
+    }
+
+    .navres
+    {
+        display: block;
+    }
+
+
+    .next h1, .girlfriend h1
+    {
+        font-size: 45px;
+    }
+
+    .thankucontain p, .breathincontain p, .breakupcontain p
+    {
+        font-size: 20px;
+    }
+
+    footer
+    {
+        height: 130px;
+        padding: 5px 0;
+    }
+
+    footer p
+    {
+        font-size:14px;
+
+    }
+
+    .socialrow
+    {
+        padding-top: 20px;
+    }
+
+    .twitter, .instagram, .youtube, .spotify2 
+    {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+    }
+
+    .tourcontain
+    {
+        width: 95%;
+    }
+
+    .tour
+    {
+        width: 90%;
+    }
+
+    .songcontainout
+    {
+        width: 90%;
+    }
+
+    .containabout h1
+    {
+        font-size: 30px;
+        margin-left: 8px;
+        line-height: 25px;
+    }
+
+    .containabout p
+    {
+        font-size: 14px;
+        margin-left: 8px;
+    }
+
+    .ari
+    {
+        height: 450px;
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width:925px)
+{
+    .girlfriend h1
+    {
+        font-size: 43px;
+        
+    }
+    .ytbtn
+    {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:856px)
+{
+    .cd img
+    {
+        width: 280px;
+    }
+
+    .cd p
+    {
+        font-size: 23px;
+    }
+
+    .cd h1
+    {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    .bannerh1
+    {
+        display: none;
+    }
+
+    .bannerv
+    {
+        display:block;
+    }
+
+    .cd img
+    {
+        width: 260px;
+    }
+
+    .cd p
+    {
+        font-size: 20px;
+    }
+
+    .cd h1
+    {
+        font-size: 24px;
+    }
+
+    footer p
+    {
+        width: 90%;
+        margin: 12px auto;
+    }
+
+    .ari
+    {
+        height: 450px;
+        width: 100%;
+        background-image: url(../img/ari2.png);
+    }
+}
+
+@media only screen and (max-width:696px)
+{
+    .cd img
+    {
+        width: 230px;
+    }
+
+    .cd p
+    {
+        font-size: 20px;
+    }
+
+    .cd h1
+    {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width:631px)
+{
+    .bannerh1
+    {
+        display: none;
+    }
+
+    .bannerv
+    {
+        display: block;
+    }
+
+    .bannerh2
+    {
+        display: none;
+    }
+
+    .bannerv1 
+    {
+        display: block;
+    }
+
+    .youtube, .twitter, .instagram, .spotify2
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+    .cd img
+    {
+        width: 210px;
+    }
+
+    .sobrecontain
+    {
+        height: 600px;
+    }
+
+    .containabout 
+    {
+        width: 95%;
+        height: 520px;
+        padding: 15px;
+    }
+
+    .containabout p
+    {
+        font-size: 15px;
+    }
+
+    .ari
+    {
+        background-image:url(../img/ari3.png);
+        background-position: center;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width:580px)
+{
+    .cd img
+    {
+        width: 190px;
+    }
+}
+
+@media only screen and (max-width:508px) 
+{
+    .cdcontain
+    {
+        display: none;
+    }
+
+    .cd2
+    {
+        display:block;
+        padding-top: 10px;
+    }
+
+    .tour h2
+    {
+        font-size: 14px;
+    }
+
+    .tour p 
+    {
+        font-size: 11px;
+    }
+
+    .tourbtn
+    {
+        width: 80px;
+        height: 30px;
+    }
+
+    .tourbtn p
+    {
+        padding-left: 22px;
+        margin-top: 7px;
+    }
+
+    .songcontain
+    {
+        padding: 20px 15px;
+    }
+
+    .songcontain p:not(.grayify)
+    {
+        width: 50%;
+        margin-top: -5px;
+    }
+
+    .albumcontain
+    {
+        width: 100%;
+        height: 350px;
+        display: block;
+    }
+
+    .albumcontain img:not(.backarrow)
+    {
+        float:none;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .albuminfo
+    {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .albuminfo h1
+    {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .albuminfo h2
+    {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .albuminfo h3
+    {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .albuminfo h4
+    {
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:474px)
+{
+    .sobrecontain
+    {
+        height: 800px;
+    }
+
+    .containabout 
+    {
+        width: 95%;
+        padding: 13px;
+    }
+
+
+    .ari
+    {
+        background-image:url(../img/ari3.png);
+        background-position: center;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width:454px)
+{
+    footer
+    {
+        margin-top: -2px;
+        height: 120px;
+    }
+
+    footer p
+    {
+        font-size: 12px;
+        width: 90%;
+        margin: 12px auto;
+    }
+
+    .cd2 img
+    {
+        width: 250px;
+    }
+
+    .cd2 p
+    {
+        font-size: 20px;
+    }
+
+    .cd2 h1
+    {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width:405px)
+{
+    .tour h2
+    {
+        padding-top: 10px;
+        font-size: 12px;
+    }
+
+    .tour p 
+    {
+        font-size: 9px;
+    }
+
+    .tourbtn
+    {
+        width: 80px;
+        height: 30px;
+    }
+
+    .tourbtn p
+    {
+        padding-left: 22px;
+        padding-top:0;
+        font-size: 11px;
+    }
+
+    .backarrow
+    {
+        width: 35px;
+        left: 12px;
+        top: 95px;
+    }
+
+    .breakup h1, .thanku h1, .breathin h1
+    {
+        font-size: 34px;
+    }
+}
+
+@media only screen and (max-width:365px)
+{
+    .tour h2
+    {
+        font-size: 10px;
+        padding-top: 14px;
+    }
+
+    .tour p 
+    {
+        font-size: 7px;
+    }
+
+    .tourbtn
+    {
+        margin-top: 25px;
+        width: 60px;
+        height: 20px;
+    }
+
+    .tourbtn p
+    {
+        padding-left: 15px;
+        margin-top: 4px;
+        font-size: 9px;
+    }
+
+    .backarrow
+    {
+        width: 35px;
+        left: 12px;
+        top: 95px;
+    }
+
+    .sobrecontain
+    {
+        height: 920px;
+    }
+}
+
+@media only screen and (max-width:289px)
+{
+    .tour h2
+    {
+        font-size: 8px;
+    }
+
+    .tour p 
+    {
+        font-size: 6px;
+    }
+
+    .tourbtn
+    {
+        margin-top: 20px;
+        width: 50px;
+        height: 20px;
+    }
+
+    .tourbtn p
+    {
+        padding-left: 12px;
+        margin-top: 5px;
+        font-size: 8px;
+    }
+
+    .sobrecontain
+    {
+        height: 1000px;
+    }
+}
